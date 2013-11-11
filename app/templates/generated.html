@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+
+
+{% block content %}
+		
+		
+			<button class="pure-button" id="download-pdf" >Download as PDF</button>
+			<button class="pure-button" id="print">Print Your Code</button>        
+        
+        <pre class="language-{{language}} {% if lines ==  "true"%} line-numbers {%endif%}"><code class="language-{{language}}">{{code}}</code></pre>
+
+
+        
+        
+
+
+        	
+        
+
+{%endblock%}

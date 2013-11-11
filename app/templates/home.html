@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+        
+        <h1>Paste Your #code here</h1>
+
+        <form method="POST" action="/generated" name="code-form" id="code-form">
+        	<select name="language-type" id="language-type">
+        			
+                                <option value="c" selected="selected">Generic</option>
+                                <option value="bash">Bash</option>
+                                <option value="c">C</option>
+                                <option value="clike">C-Like</option>
+                                <option value="coffeescript">CoffeeScript</option>
+                                <option value="css">CSS</option>
+                                <option value="cssextras">CSS Extras</option>
+                                <option value="groovy">Groovy</option>
+                                <option value="http">HTTP</option>
+                                <option value="java">Java</option>
+                                <option value="javascript">JavaScript</option>
+                                <option value="css">Markup (HTML,XML,...)</option>
+                                <option value="php">PHP</option>
+                                <option value="phpextras">PHP Extras</option>
+                                <option value="python">Python</option>
+                                <option value="sass">Sass (Scss)</option>
+                                <option value="sql">SQL</option>
+        	</select>
+            <input type="checkbox" name="line_number"  id="line_number" value="true">Show Line Number 
+        	<textarea name="code" id="code" cols="30" rows="10"></textarea>
+        	<button class="pure-button" id="enjoy" >Enjoy</button>
+        </form>
+        
+
+
+{%endblock%}
