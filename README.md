@@ -1,5 +1,5 @@
 #PyCode
-####Print your code using a lite flask App and Prism Css
+####Print your code using a lite Flask App and Prism Css
 
 
 ##Demo: 
