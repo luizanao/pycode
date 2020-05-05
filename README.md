@@ -1,8 +1,11 @@
-#PyCode
-####Print your code using a lite Flask App and Prism Css
+# PyCode
+
+This was created in that time which college assignments needed to be printed and handled to Professors. 
+
+Print your code using a lite Flask App and Prism Css
 
 
-##Demo: 
+## Demo: 
 ![ss](demo1.png)
 
 
